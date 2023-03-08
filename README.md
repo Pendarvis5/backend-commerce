@@ -11,6 +11,7 @@ various products at different price points and categories.
 
 ## Visuals
 
+<img width="765" alt="Screenshot 2023-03-07 223757" src="https://user-images.githubusercontent.com/118090944/223621869-5e08b543-55ba-40c7-831a-964ec3ab0368.png">
 
 
 
