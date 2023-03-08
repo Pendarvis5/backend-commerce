@@ -27,22 +27,22 @@ Product.init(
         isDecimal: true
       }
     },
-    // check how to set default value to 10
+    
     stock: {
       type: DataTypes.INTEGER,
       allowNull: false,
-      set(value) {
-        this.setDataValue(10)
-      },
+      defaultValue: 10,
       validate:{
         isNumeric: true
       }
     },
     category_id:{
       type: DataTypes.INTEGER,
-     // add References the Category model's id 
+      references: {
+        model: 'category',
+        key: 'id'
+      }
     }
-
   },
   {
     sequelize,
